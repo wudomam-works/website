@@ -1,0 +1,21 @@
+// Fonts
+@font-face {
+    font-family: 'Nemoy';
+    src: url('/assets/fonts/SUIT-Regular.otf') format('woff2'), url('/assets/fonts/SUIT-Regular.otf') format("woff");
+}
+
+@font-face {
+    font-family: 'Basically A Sans Serif SemiBold';
+    src: url('/assets/fonts/BasicallyASansSerif-SemiBold.otf') format('woff2'), url('/assets/fonts/NotoSansSC-Regular.otf') format("woff");
+}
+
+@font-face {
+    font-family: 'Noto Sans SC';
+    src: url('/assets/fonts/NotoSansSC-Regular.otf') format('woff2'), url('/assets/fonts/NotoSansSC-Regular.otf') format("woff");
+}
+
+$nemoy:  "Nemoy";
+$bass:    "Basically A Sans Serif SemiBold";
+$noto:    "Noto Sans SC";
+
+$fira:     "monospace";

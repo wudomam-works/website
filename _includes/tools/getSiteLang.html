@@ -1,0 +1,6 @@
+{%- assign _lang = site.lang -%}
+{%- if page.lang -%}
+  {%- assign _lang = page.lang -%}
+{%- elsif site.lang -%}
+  {%- assign _lang = site.lang -%}
+{%- endif -%}

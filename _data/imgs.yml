@@ -1,0 +1,31 @@
+maya:
+  e: 10
+  w: 6
+
+c4d:
+  e: 14
+  w: 0
+
+keyshot:
+  e: 8
+  w: 0
+
+blender:
+  e: 2
+  w: 2
+
+industry:
+  e: 3
+  w: 17
+
+nextgen:
+  e: 5
+  w: 0
+
+ue4:
+  e: 3
+  w: 0
+  
+zbrush:
+  e: 10
+  w: 0

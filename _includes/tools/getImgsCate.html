@@ -1,0 +1,6 @@
+{%- assign _cate = site.cate -%}
+{%- if page.cate -%}
+  {%- assign _cate = page.cate -%}
+{%- elsif site.cate -%}
+  {%- assign _cate = site.cate -%}
+{%- endif -%}

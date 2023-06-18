@@ -1,0 +1,17 @@
+{% include tools/getSiteLang.html %}
+<div class="footer">
+    <div class="copy">
+        Copyright &copy; <span id="YearNum"></span> &nbsp; {{ site.data.i18n[_lang].title }}. &nbsp; <a href="https://github.com/wudomam-works/website">Github</a> 
+    </div>
+    <script>
+        var currentTime = new Date();
+        var year = currentTime.getFullYear();
+        console.log(year);
+        document.getElementById("YearNum").innerHTML=year;
+    </script>
+    <div class="license">
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+            {{ site.data.i18n[_lang].license }}
+        </a>
+    </div>
+</div>

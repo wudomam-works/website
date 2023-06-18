@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+
+{% include head.html %}
+
+<body>
+  <div id="preloading" class="preloading">
+    <div class="preloading-icon">
+      <img src="/assets/imgs/loading.svg" />
+    </div>
+<!--     <div class="preloading-icon1">
+      <img src="/assets/imgs/loading.gif" />
+    </div> -->
+  </div>
+  {% include navbar.html %}
+
+  <main>
+    <div class="line">
+      <div class="linear1 linear-top"></div>
+      <div class="linear1 linear-bottom"></div>
+    </div>
+    {{ content }}
+
+  </main>
+
+  {% include footer.html %}
+
+  {% include script.html %}
+
+</body>
+
+</html>

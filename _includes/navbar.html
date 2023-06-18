@@ -1,0 +1,19 @@
+{% include tools/getSiteLang.html %}
+<nav class="navbar">
+    <div class="navbar-box">
+        <div class="navbar-box-title">
+            <a href="{{ site.data.i18n[_lang].switch }}">
+                #{{ site.data.i18n[_lang].title }}
+            </a>
+        </div>
+        <div class="navbar-box-menu">
+            <div class="navbar-box-menu-items">
+                <a href="{{ page.switch }}">
+                    <div class="navbar-box-menu-item">
+                        [{{ site.data.i18n[_lang].name }}]
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>

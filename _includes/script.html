@@ -1,0 +1,32 @@
+<script>
+    window.onload = function () {
+        initial();
+        if (document.readyState === 'complete') {
+            setTimeout(function () {
+                document.getElementById("preloading").className = "preloading-fadout";
+            }, 777);
+        }
+    }
+</script>
+
+{% if page.layout == 'home' %}
+<script src="/assets/js/dcode.js"></script>
+<script>
+    decodeText();
+    setInterval(function () {
+        decodeText();
+    }, 5000);
+</script>
+{% endif %}
+
+{% if page.layout == 'works' %}
+<script type="module" src="/assets/js/viewer.esm.js"></script>
+<script type="module" src="/assets/js/viewer.min.js"></script>
+<script type="module">
+    new Viewer(document.getElementById('thumbbox'), {
+        button: false,
+        title: false,
+        url: 'data-original'
+    });
+</script>
+{% endif %}

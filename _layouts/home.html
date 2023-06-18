@@ -1,0 +1,118 @@
+---
+layout: default
+---
+
+<!-- <div class="top-box">
+    <div style="margin: auto;">
+        {% if page.lang == 'en' %}
+        <div class="decode-text">
+            <div class="text-animation">W</div>
+            <div class="text-animation">E</div>
+            <div class="text-animation">L</div>
+            <div class="text-animation">C</div>
+            <div class="text-animation">O</div>
+            <div class="text-animation">M</div>
+            <div class="text-animation">E</div>
+            <div class="text-animation">,</div>
+            <div class="space"></div>
+            <div class="text-animation">M</div>
+            <div class="text-animation">Y</div>
+            <div class="space"></div>
+            <div class="text-animation">F</div>
+            <div class="text-animation">R</div>
+            <div class="text-animation">I</div>
+            <div class="text-animation">E</div>
+            <div class="text-animation">N</div>
+            <div class="text-animation">D</div>
+        </div>
+        {% else %}
+        <div class="decode-text">
+            <div class="text-animation">欢</div>
+            <div class="text-animation">迎</div>
+            <div class="text-animation">来</div>
+            <div class="text-animation">到</div>
+            <div class="text-animation">我</div>
+            <div class="text-animation">的</div>
+            <div class="text-animation">个</div>
+            <div class="text-animation">人</div>
+            <div class="text-animation">C</div>
+            <div class="text-animation">G</div>
+            <div class="text-animation">作</div>
+            <div class="text-animation">品</div>
+            <div class="text-animation">站</div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div style="background-color: aquamarine;width:100px;height: 100px;margin: -50px auto 0 auto;"></div>
+</div> -->
+
+{% include tools/getSiteLang.html %}
+<div class="worklist">
+    <div class="worklist-box">
+        <a href="{{ page.pageUrl }}/works/maya">
+            <div class="worklist-item" style="background-image: url(/assets/works/imgs_maya/{{ site.data.imgs.maya.e }}_thumb.jpg);">
+                <div class="worklist-item-name">Maya</div>
+            </div>
+        </a>
+        <a href="{{ page.pageUrl }}/works/blender">
+            <div class="worklist-item" style="background-image: url(/assets/works/imgs_blender/{{ site.data.imgs.blender.e }}_thumb.jpg);">
+                <div class="worklist-item-name">Blender</div>
+            </div>
+        </a>
+        <a href="{{ page.pageUrl }}/works/keyshot">
+            <div class="worklist-item" style="background-image: url(/assets/works/imgs_keyshot/{{ site.data.imgs.keyshot.e }}_thumb.jpg);">
+                <div class="worklist-item-name">Keyshot</div>
+            </div>
+        </a>
+        <a href="{{ page.pageUrl }}/works/ue4">
+            <div class="worklist-item" style="background-image: url(/assets/works/imgs_ue4/{{ site.data.imgs.ue4.e }}_thumb.jpg);">
+                <div class="worklist-item-name">UE4</div>
+            </div>
+        </a>
+        <a href="{{ page.pageUrl }}/works/c4d">
+            <div class="worklist-item" style="background-image: url(/assets/works/imgs_c4d/{{ site.data.imgs.c4d.e }}_thumb.jpg );" >
+                <div class="worklist-item-name">C4D</div>
+            </div>
+        </a>
+        <a href="{{ page.pageUrl }}/works/zbrush">
+            <div class="worklist-item" style="background-image: url(/assets/works/imgs_zbrush/{{ site.data.imgs.zbrush.e }}_thumb.jpg );" >
+                <div class="worklist-item-name">Zbrush</div>
+            </div>
+        </a>
+        <a href="{{ page.pageUrl }}/works/industry">
+            <div class="worklist-item" style="background-image: url(/assets/works/imgs_industry/{{ site.data.imgs.industry.e }}_thumb.jpg );">
+                <div class="worklist-item-name">{{ site.data.i18n[_lang].industry }}</div>
+            </div>
+        </a>
+        <a href="{{ page.pageUrl }}/works/nextgen">
+            <div class="worklist-item" style="background-image: url(/assets/works/imgs_nextgen/{{ site.data.imgs.nextgen.e }}_thumb.jpg );" >
+                <div class="worklist-item-name">{{ site.data.i18n[_lang].nextgen }}</div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="about">
+    <div class="about-container">
+        <div class="about-container-box">
+            <div class="about-container-box-title">
+                <div class="about-container-box-title-top">
+                    小吴
+                </div>
+                <div class="about-container-box-title-bottom">
+                    WUDOMAM
+                </div>
+            </div>
+            <div class="about-container-box-content">
+                <div class="about-container-box-content-1">
+                    CG艺术爱好者，概念设计师，插画师
+                </div>
+                <div class="about-container-box-content-1">
+                    QQ: xxxxxxxxxxxxx <br>
+                    Mail: xxxxxxxxxxxxxx
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

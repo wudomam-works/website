@@ -1,0 +1,28 @@
+lang: en
+url: "https://pieseven-works.github.io"
+
+collections:
+  imgs_maya:
+    output: true
+  imgs_blender:
+    output: true
+  imgs_c4d:
+    output: true
+  imgs_next_gen:
+    output: true
+  imgs_industry:
+    output: true
+  imgs_industry_w:
+    output: true
+  imgs_keyshot:
+    output: true
+  imgs_ue4:
+    output: true
+  imgs_zbrush:
+    output: true
+
+markdown: kramdown
+
+sass:
+  sass_dir: _sass
+  style: compressed

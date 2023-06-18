@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% include tools/getImgsCate.html %}
+<div class="thumbcontainer">
+  <div id="thumbbox" class="thumbbox">
+    {% for image in (1..site.data.imgs[_cate].e) reversed %}
+    <div class="thumb" style="background-image: url(/assets/works/imgs_{{ _cate }}/{{ image }}_thumb.jpg)">
+      <img data-original="/assets/works/imgs_{{ _cate }}/{{ image }}.jpg" src="/assets/imgs/pics.png" border="0">
+    </div>
+    {% endfor %}
+    {% for image in (1..site.data.imgs[_cate].w) reversed %}
+    <div class="thumb" style="background-image: url(/assets/works/imgs_{{ _cate }}/white_{{ image }}.jpg)">
+      <img data-original="/assets/works/imgs_{{ _cate }}/white_{{ image }}.jpg" src="/assets/imgs/pics.png" border="0">
+    </div>
+    {% endfor %}
+  </div>
+</div>
+</div>
